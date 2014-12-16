@@ -1,0 +1,7 @@
+.statistic-box
+  .row
+    ticker(value='{{totalFunds}}')
+  .row
+    .progress-container
+      b{{percentGoal}} % of our goal of {{goal | number:0}} dollars
+      progressbar(animate="true", value="percentGoal", type="success")

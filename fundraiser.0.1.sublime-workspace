@@ -1,0 +1,517 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/components/ticker/ticker.scss",
+			"settings":
+			{
+				"buffer_size": 448,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/components/statisticBox/statisticBox.scss",
+			"settings":
+			{
+				"buffer_size": 621,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 18220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/app.scss",
+			"settings":
+			{
+				"buffer_size": 721,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 29,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/bower_components/tick/assets/scss/tick.scss",
+			"settings":
+			{
+				"buffer_size": 5149,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 94.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 417.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"color_pick",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/paul/Code/fundraiser/fullstack",
+		"/home/paul/Code/fundraiser/fullstack/client",
+		"/home/paul/Code/fundraiser/fullstack/client/bower_components",
+		"/home/paul/Code/fundraiser/fullstack/client/bower_components/tick",
+		"/home/paul/Code/fundraiser/fullstack/client/bower_components/tick/assets",
+		"/home/paul/Code/fundraiser/fullstack/client/bower_components/tick/assets/css",
+		"/home/paul/Code/fundraiser/fullstack/client/bower_components/tick/assets/scss",
+		"/home/paul/Code/fundraiser/fullstack/client/bower_components/tick/demo"
+	],
+	"file_history":
+	[
+		"/home/paul/Code/fundraiser/fullstack/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json",
+		"/home/paul/Code/fundraiser/fullstack/Gruntfile.js",
+		"/home/paul/Code/fundraiser/fullstack/.sass-cache/0a53e1bcf117d39faf48468896b83abc4c411c5a/app.scssc",
+		"/home/paul/Code/fundraiser/fullstack/server/app.js",
+		"/home/paul/Code/fundraiser/fullstack/node_modules/passport-google-oauth/node_modules/pkginfo/examples/all-properties.js",
+		"/home/paul/Code/fundraiser/fullstack/node_modules/grunt-contrib-clean/AUTHORS",
+		"/home/paul/Code/fundraiser/fullstack/client/app/main/main.controller.coffee",
+		"/home/paul/Code/fundraiser/fullstack/client/app/main/main.jade",
+		"/home/paul/Code/fundraiser/fullstack/client/components/statisticBox/statisticBox.jade",
+		"/home/paul/Code/fundraiser/fullstack/client/app/variables.scss",
+		"/home/paul/Code/fundraiser/fullstack/client/app/app.scss",
+		"/home/paul/Code/fundraiser/fullstack/client/components/ticker/ticker.directive.coffee",
+		"/home/paul/Code/fundraiser/fullstack/.sass-cache/589534fe68c66a23107022fdf338820db93eb6c6/ticker.scssc",
+		"/home/paul/Code/fundraiser/fullstack/node_modules/grunt-google-cdn/node_modules/bower/node_modules/mout/number/toInt.js",
+		"/home/paul/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/paul/Code/fundraiser/fullstack/client/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables.scss",
+		"/home/paul/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/paul/Code/fundraiser/fullstack/client/index.html",
+		"/home/paul/Code/fundraiser/fullstack/client/app/ticker/ticker.directive.coffee",
+		"/home/paul/Code/fundraiser/fullstack/node_modules/grunt-contrib-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/home/paul/Code/fundraiser/fullstack/server/config/seed.js",
+		"/home/paul/Code/fundraiser/fullstack/client/bower_components/tick/assets/js/tick.js",
+		"/home/paul/Code/fundraiser/fullstack/client/bower_components/tick/demo/flip.html",
+		"/home/paul/Code/fundraiser/fullstack/client/bower_components/tick/demo/scroll.html",
+		"/home/paul/Code/fundraiser/fullstack/client/bower_components/tick/assets/css/tick.css",
+		"/home/paul/Code/fundraiser/fullstack/node_modules/grunt-karma/TODO.md",
+		"/home/paul/Code/fundraiser/fullstack/node_modules/grunt-autoprefixer/CHANGELOG",
+		"/home/paul/Code/fundraiser/fullstack/node_modules/grunt-contrib-sass/docs/sass-examples.md",
+		"/home/paul/Code/fundraiser/fullstack/server/api/thing/thing.model.js",
+		"/home/paul/Code/fundraiser/fullstack/node_modules/jshint-stylish/stylish.js",
+		"/home/paul/Code/fundraiser/fullstack/client/components/modal/modal.service.coffee",
+		"/home/paul/Code/fundraiser/fullstack/client/app/app.coffee",
+		"/home/paul/.config/sublime-text-3/Packages/User/CoffeeCompile.sublime-settings",
+		"/home/paul/.config/sublime-text-3/Packages/CoffeeCompile/CoffeeCompile.sublime-settings",
+		"/home/paul/Code/fundraiser/fullstack/client/app/main/main.coffee",
+		"/home/paul/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/paul/Code/fundraiser/fullstack/app/ticker/ticker.jade",
+		"/home/paul/Code/fundraiser/fullstack/.tmp/app/main/main.js",
+		"/home/paul/Code/fundraiser/fullstack/.sass-cache/8839bafe13b153a41ae4f750f38de429284102a9/main.scssc",
+		"/home/paul/Code/fundraiser/fullstack/node_modules/express/Makefile",
+		"/home/paul/Code/fundraiser/fullstack/e2e/main/main.po.js",
+		"/home/paul/Code/fundraiser/fullstack/.tmp/app/main/main.html",
+		"/home/paul/Code/fundraiser/fullstack/node_modules/grunt-google-cdn/node_modules/bower/node_modules/mout/lang/isNull.js",
+		"/home/paul/node-v0.10.33/Makefile",
+		"/usr/share/applications/defaults.list",
+		"/usr/share/applications/sublime-text.desktop"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"progress",
+			"color",
+			"ctrl+shift+q",
+			"ctrl+shift+",
+			"ctrl+shift+c",
+			"ctr+shift",
+			"separator",
+			"main",
+			"sublime-desktop",
+			"gedit"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/components/ticker/ticker.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/components/statisticBox/statisticBox.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13533,
+								13533
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 8876.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/app/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/bower_components/tick/assets/scss/tick.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 250.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "fundraiser.0.1.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gruntfile",
+				"Gruntfile.js"
+			],
+			[
+				"app.scs",
+				"client/app/app.scss"
+			],
+			[
+				"ticker.coff",
+				"client/components/ticker/ticker.directive.coffee"
+			],
+			[
+				"index",
+				"client/index.html"
+			],
+			[
+				"main.control",
+				"client/app/main/main.controller.coffee"
+			],
+			[
+				"main.jade",
+				"client/app/main/main.jade"
+			],
+			[
+				"main.con",
+				"client/app/main/main.controller.coffee"
+			],
+			[
+				"main",
+				"client/app/main/main.jade"
+			],
+			[
+				"seed",
+				"server/config/seed.js"
+			],
+			[
+				"seed.",
+				"server/config/seed.js"
+			],
+			[
+				"main.contr",
+				"client/app/main/main.controller.coffee"
+			],
+			[
+				"ticker",
+				"app/ticker/ticker.jade"
+			],
+			[
+				"index.html",
+				"client/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 378.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

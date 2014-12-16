@@ -1,0 +1,24 @@
+@import "compass/css3/images";
+
+$background: rgb(255,255,255);
+$foreground: rgb(30,30,30);
+
+$border_color: rgb(30,30,30);
+$box_shadow_color: rgb(150,150,150);
+
+$move_background: rgb(255,255,255);
+$separator_color: rgb(180,180,180);
+$bar_color: rgb(50,50,50);
+$bar_height: 1px;
+
+$move_shadow_color: rgb(0,0,0);
+
+.statistic-box{
+  border: 1px solid $border_color;
+  border-radius: 5px;
+  margin-bottom: 0.125em;
+  /* background: $gradient; */
+  background-color: rgb(45,45,45);
+  @include filter-gradient(#2d2d2d, #464646, vertical);
+  @include background-image(linear-gradient(top,  rgb(45,45,45) 0%,rgb(70,70,70) 30%));
+}
