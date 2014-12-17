@@ -624,6 +624,16 @@ module.exports = function (grunt) {
   grunt.registerTask('express-keepalive', 'Keep grunt running', function() {
     this.async();
   });
+  /*
+  *
+  *
+  *
+  *  May want to change this later
+  *
+  *
+  *
+  */
+  //grunt.loadNpmTasks('grunt-node-inspector');
 
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {

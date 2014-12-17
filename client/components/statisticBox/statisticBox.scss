@@ -12,8 +12,11 @@ $bar_color: rgb(50,50,50);
 $bar_height: 1px;
 
 $move_shadow_color: rgb(0,0,0);
-
+.clear-both{
+  clear:both;
+}
 .statistic-box{
+  color: white;
   border: 1px solid $border_color;
   border-radius: 5px;
   margin-bottom: 0.125em;

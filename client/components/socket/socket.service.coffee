@@ -26,7 +26,6 @@ angular.module 'fundraiserApp'
   @param {Function} callback
   ###
   syncUpdates: (modelName, array, callback) ->
-
     ###
     Syncs item creation/updates on 'model:save'
     ###

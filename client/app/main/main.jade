@@ -11,7 +11,11 @@ header#banner.hero-unit
     .col-md-7
 
     .col-md-5
-      statistic-box
+      statistic-box(total-donated="{{statistics.totalDonated}}",goal="{{statistics.goal}}")
+  .row
+    .col-lg-7
+    .col-lg-5
+      twitter(feed="tweets")      
   .row
     .col-lg-12
       h1.page-header Features:
@@ -27,6 +31,7 @@ header#banner.hero-unit
       input.form-control(type='text', placeholder='Add a new thing here.', ng-model='newThing')
       span.input-group-btn
         button.btn.btn-primary(type='submit', ng-click='addThing()') Add New
+  
 
 footer.footer
   .container

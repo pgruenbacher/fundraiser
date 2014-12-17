@@ -33,7 +33,8 @@ Thing.find({}).remove(function() {
 
 Statistic.find({}).remove(function(){
   Statistic.create({
-    totalDonated:15416
+    totalDonated:135416,
+    goal: 230000
   },function(){
     console.log('populating statistic');
     }

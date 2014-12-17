@@ -5,9 +5,10 @@
 'use strict';
 
 var config = require('./environment');
-
+var twitterSocket = require('../api/twitter/twitter.socket');
 // When the user disconnects.. perform this
 function onDisconnect(socket) {
+  twitterSocket.disconnect(socket);
 }
 
 // When the user connects.. perform this
@@ -18,6 +19,7 @@ function onConnect(socket) {
   });
 
   // Insert sockets below
+  twitterSocket.register(socket);
   require('../api/statistic/statistic.socket').register(socket);
   require('../api/thing/thing.socket').register(socket);
 }
@@ -37,6 +39,11 @@ module.exports = function (socketio) {
   //   secret: config.secrets.session,
   //   handshake: true
   // }));
+  
+  //call the public twitterSocket public stream
+  twitterSocket.publicStream(socketio.sockets);
+
+  socketio.sockets.emit('tweet:save',[{something:'asdf'}]);
 
   socketio.on('connection', function (socket) {
     socket.address = socket.handshake.address !== null ?
@@ -48,11 +55,11 @@ module.exports = function (socketio) {
     // Call onDisconnect.
     socket.on('disconnect', function () {
       onDisconnect(socket);
-      console.info('[%s] DISCONNECTED', socket.address);
+      console.info('[%s] socket DISCONNECTED', socket.address);
     });
 
     // Call onConnect.
     onConnect(socket);
-    console.info('[%s] CONNECTED', socket.address);
+    console.info('[%s] socket CONNECTED', socket.address);
   });
 };

@@ -1,0 +1,12 @@
+div
+  ul.statuses
+    li.clearfix(ng-repeat="tweet in feed[0]")
+      .avatar
+        img(ng-src="{{tweet.user.image}}")
+      .text
+        dd {{tweet.timestamp | moment:'MMM Do'}}
+        dt
+          a
+            strong {{tweet.user.name}}
+        dd I donated ${{tweet.text.length}} to the cause
+        dd {{tweet.location}}

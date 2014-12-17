@@ -5,8 +5,8 @@ var mongoose = require('mongoose'),
 
 var StatisticSchema = new Schema({
   name: String,
-  info: String,
-  active: Boolean
+  totalDonated:Number,
+  goal: Number
 });
 
 module.exports = mongoose.model('Statistic', StatisticSchema);
