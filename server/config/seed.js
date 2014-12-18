@@ -8,6 +8,7 @@
 var Thing = require('../api/thing/thing.model');
 var User = require('../api/user/user.model');
 var Statistic = require('../api/statistic/statistic.model');
+var Image = require('../api/image/image.model');
 
 Thing.find({}).remove(function() {
   Thing.create({
@@ -29,6 +30,12 @@ Thing.find({}).remove(function() {
     name : 'Deployment Ready',
     info : 'Easily deploy your app to Heroku or Openshift with the heroku and openshift subgenerators'
   });
+});
+
+Image.find({}).remove(function(){
+  // Image.create({
+
+  // })
 });
 
 Statistic.find({}).remove(function(){

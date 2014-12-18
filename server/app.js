@@ -10,6 +10,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 var express = require('express');
 var mongoose = require('mongoose');
 var config = require('./config/environment');
+var multer  = require('multer');
 
 // Connect to database
 mongoose.connect(config.mongo.uri, config.mongo.options);
@@ -19,6 +20,34 @@ if(config.seedDB) { require('./config/seed'); }
 
 // Setup server
 var app = express();
+
+//Muler Upload Settings
+app.use(multer({ dest: './client/assets/uploads/',
+  rename: function (fieldname, filename) {
+    return filename+Date.now();
+  },
+  onFileUploadStart: function (file) {
+    console.log(file.originalname + ' is starting ...')
+  },
+  onFileUploadData: function (file, data) {
+    //console.log(data.length + ' of ' + file.fieldname + ' arrived')
+  },
+  onFilesLimit: function () {
+    console.log('Crossed file limit!')
+  },
+  onFieldsLimit: function () {
+    console.log('Crossed fields limit!')
+  },
+  limits: {
+    fieldNameSize: 100,
+    files: 5,
+    fields: 12
+  },
+  onFileUploadComplete: function (file) {
+    console.log(file.fieldname + ' uploaded to  ' + file.path)
+  }
+}));
+
 var server = require('http').createServer(app);
 var socketio = require('socket.io')(server, {
   serveClient: (config.env === 'production') ? false : true,
