@@ -10,6 +10,7 @@ var ImageSchema = new Schema({
   size: Number,
   truncated: Boolean,
   path: String,
+  urlPath: String,
   encoding: String,
   originalname: String,
   thumbnails: [{ type: Schema.ObjectId, ref: 'Thumbnail' }]

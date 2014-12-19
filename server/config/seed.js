@@ -32,11 +32,11 @@ Thing.find({}).remove(function() {
   });
 });
 
-Image.find({}).remove(function(){
-  // Image.create({
+// Image.find({}).remove(function(){
+//   // Image.create({
 
-  // })
-});
+//   // })
+// });
 
 Statistic.find({}).remove(function(){
   Statistic.create({

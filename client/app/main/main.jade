@@ -9,11 +9,12 @@ header#banner.hero-unit
 .container
   .row
     .col-md-7
-
+      div(ckeditor="editorOptions" ng-model="exampleBody")
     .col-md-5
       statistic-box(total-donated="{{statistics.totalDonated}}",goal="{{statistics.goal}}")
   .row
     .col-lg-7
+      pre {{exampleBody}}
     .col-lg-5
       twitter(feed="tweets")      
   .row

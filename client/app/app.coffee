@@ -7,7 +7,8 @@ angular.module 'fundraiserApp', [
   'btford.socket-io',
   'ui.router',
   'ui.bootstrap',
-  'angularFileUpload'
+  'angularFileUpload',
+  'ngCkeditor'
 ]
 .config ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) ->
   $urlRouterProvider

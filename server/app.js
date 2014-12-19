@@ -20,9 +20,16 @@ if(config.seedDB) { require('./config/seed'); }
 
 // Setup server
 var app = express();
-
+//Pass configuration through the requests
+app.use(function(req,res,next){
+  // Assign the config to the req object
+  req.config = config;
+  // Call the next function in the pipeline (your controller actions).
+  return next();
+});
 //Muler Upload Settings
-app.use(multer({ dest: './client/assets/uploads/',
+app.use(multer({ 
+  dest: config.uploadsDir+'/uploads/',
   rename: function (fieldname, filename) {
     return filename+Date.now();
   },

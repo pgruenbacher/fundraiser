@@ -12,6 +12,7 @@ var ThumbnailSchema=new Schema({
   size: Number,
   truncated: Boolean,
   path: String,
+  urlPath:String,
   encoding: String,
   originalname: String
 });

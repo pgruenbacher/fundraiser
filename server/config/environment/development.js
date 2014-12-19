@@ -7,6 +7,7 @@ module.exports = {
   mongo: {
     uri: 'mongodb://localhost/fundraiser-dev'
   },
-
+  uploadsDir:'./client/assets',
+  publicAssets:'/assets',
   seedDB: true
 };
