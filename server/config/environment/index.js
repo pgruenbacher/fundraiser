@@ -40,7 +40,12 @@ var all = {
       }
     }
   },
-
+  stripe:{
+    clientID: process.env.STRIPE_ID || 'id',
+    clientPublic: process.env.STRIPE_PUBLIC || 'public',
+    clientSecret: process.env.STRIPE_SECRET || 'secret',
+    callbackURL: (process.env.DOMAIN|| '') + '/auth/stripe/callback'
+  },
   facebook: {
     clientID:     process.env.FACEBOOK_ID || 'id',
     clientSecret: process.env.FACEBOOK_SECRET || 'secret',

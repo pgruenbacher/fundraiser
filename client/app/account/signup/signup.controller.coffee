@@ -4,6 +4,8 @@ angular.module 'fundraiserApp'
 .controller 'SignupCtrl', ($scope, Auth, $location, $window) ->
   $scope.user = {}
   $scope.errors = {}
+  stripe={}
+
   $scope.register = (form) ->
     $scope.submitted = true
 
@@ -27,4 +29,8 @@ angular.module 'fundraiserApp'
           $scope.errors[field] = error.message
 
   $scope.loginOauth = (provider) ->
-    $window.location.href = '/auth/' + provider
+    user=$scope.user
+    # url=$location.path('/auth/'+provider).search(user)
+    url='/auth/'+provider+'/?'+decodeURIComponent($.param(user))
+    console.log url, user
+    $window.location.href = url

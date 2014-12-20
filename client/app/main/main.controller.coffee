@@ -6,7 +6,9 @@ angular.module 'fundraiserApp'
   $scope.tweets = []
   $scope.statistics={}
 
+  $scope.editMode=false;
   $scope.exampleBody='<p>You can edit here</p>'
+  $scope.exampleBody2='<p>ANother asdf lkj</p>'
 
   $http.get('/api/statistics').success (statistics) ->
     console.log 'success statistics',statistics

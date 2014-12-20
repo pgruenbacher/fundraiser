@@ -8,7 +8,8 @@ angular.module 'fundraiserApp', [
   'ui.router',
   'ui.bootstrap',
   'angularFileUpload',
-  'ngCkeditor'
+  'ngCkeditor',
+  'angularPayments'
 ]
 .config ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) ->
   $urlRouterProvider
