@@ -30,8 +30,12 @@ angular.module 'fundraiserApp'
 
   $scope.loginOauth = (provider) ->
     user=$scope.user
+    date=$scope.user.dob.split('/')
+    user.day=date[0]
+    user.month=date[1]
+    user.year=date[2]
     # url=$location.path('/auth/'+provider).search(user)
     url='/auth/'+provider+'/?'+decodeURIComponent($.param(user))
-    console.log url;
+    console.log url,user;
     # console.log url, user
     $window.location.href = url

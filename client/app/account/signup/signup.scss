@@ -4,6 +4,26 @@
     background: #FFF6BE;
     border-radius:5px;
   }
+  span.hint{
+    font-size:0.6em;
+    color: #888888;
+  }
+  hr{
+    border-color:#000;
+  }
+  .date-input{
+    position:relative;
+    padding:10px 15px;
+    div{
+      padding: 0 10px;
+    }
+    div:first-child{
+      padding-left:15px;
+    }
+    div:last-child{
+      padding-right:15px;
+    }
+  }
 }
 
 

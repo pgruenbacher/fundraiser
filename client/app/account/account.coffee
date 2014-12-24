@@ -18,3 +18,8 @@ angular.module 'fundraiserApp'
     templateUrl: 'app/account/settings/settings.html'
     controller: 'SettingsCtrl'
     authenticate: true
+
+.directive 'mask', ()->
+  restrict: 'A',
+  link: (scope, element, attrs) ->
+    jQuery(element).mask(attrs.mask)
