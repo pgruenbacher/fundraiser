@@ -1,3 +1,15 @@
+.signup-form{
+  .form-horizontal{
+    padding:30px;
+    background: #FFF6BE;
+    border-radius:5px;
+  }
+}
+
+
+
+/**Everything below is Stripe Connect Button**/
+
 .stripe-connect {
   display: inline-block;
   margin-bottom: 1px;
